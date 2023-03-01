@@ -1,0 +1,33 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+        
+      "default",
+      {
+        "ignore": [
+          "-webkit-text-size-adjust",
+          "text-align   : -webkit-match-parent",
+          "scroll-behavior",
+          "-webkit-tap-highlight-color",
+          "-webkit-overflow-scrolling",
+          "text-decoration-skip-ink",
+          "overflow-anchor",
+          "scrollbar-width",
+          "scrollbar-color",
+          "-ms-touch-action",
+          "accent-color",
+          "text-align: -webkit-match-parent"
+        ]
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ]
+  }
+}
